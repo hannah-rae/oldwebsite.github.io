@@ -17,8 +17,20 @@
         font-family: 'Source Serif Pro', serif;
         font-size: 12pt;
     }
-    ul.contact {
-
+    dt {
+        float: left;
+        width: 15%;
+        font-weight: bold;
+    }
+    dl {
+        width: 85%;
+    }
+    span.email {
+        font-weight: bold;
+    }
+    span.email span {
+        font-family: monospace;
+        font-weight: normal;
     }
 </style>
 </head>
@@ -30,10 +42,12 @@
 
 <h2>Contact Information</h2>
 
-<ul class="contact">
-    <li>email</li>
-    <li>twitter</li>
-</ul>
+<dl>
+<dt>Email</dt>
+<dd><span class="email"><span>first_name</span> . <span>middle_initial</span> . <span>last_name</span> @ <span>gmail</span></span></dd>
+<dt>Twitter</dt>
+<dd>@<a href="https://twitter.com/heyyhannahrae">heyyhannahrae</a></dd>
+</dl>
 
 <h2>Background</h2>
 University of North Carolina at Chapel Hill, B.S. Computer Science 2014 <br>
